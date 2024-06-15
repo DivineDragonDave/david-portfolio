@@ -70,7 +70,7 @@ function About() {
           </div>
           <div>
             <img
-              className=" border-white border-2 rounded-xl h-[700px]  ml-56 "
+              className=" border-white border-2 rounded-xl md:h-[700px]  md:ml-56 "
               src={Hero}
               alt="David Ribbfors"
             />
