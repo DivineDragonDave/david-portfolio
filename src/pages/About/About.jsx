@@ -34,7 +34,7 @@ function About() {
               <h1 className=" text-5xl mb-4">My CV</h1>
               <a
                 className="flex justify-center items-center  w-28 mx-auto"
-                href="/public/David R CV.pdf"
+                href="/David R CV.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
