@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply scroll-smooth;
+}
+
+body {
+  background-color: #331a1a;
+  padding-top: 50px;
+}
+
+/* i din CSS-fil */
+.img-translate {
+  transform: rotate(0deg) translateX(var(--translate-size)) rotate(0deg);
+}
+
+:root {
+  --translate-size: 100px;
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --translate-size: 250px;
+  }
+}
