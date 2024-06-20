@@ -6,7 +6,7 @@ import Portfolio2 from "./Kalender.png";
 import Portfolio3 from "./League-of-legends-logo.png";
 import Portfolio4 from "./Motivationsgenerator.png";
 import Portfolio5 from "./Password generator.png";
-import Portfolio6 from "./Quiz.png";
+import Portfolio6 from "./Quiz.jpg";
 import Portfolio7 from "./Spotify.png";
 import Portfolio8 from "./Weather-app-dave.png";
 import Portfolio9 from "./Contrys.png";
