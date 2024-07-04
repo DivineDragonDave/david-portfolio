@@ -1,6 +1,6 @@
 import Logo from "./DR Logo vit.png";
 import Hero from "./David.jpg";
-import Portfolio from "./Portfolio.jpg";
+import Portfolio from "./Portfolio.webp";
 import Portfolio1 from "./Joke.png";
 import Portfolio2 from "./Kalender.png";
 import Portfolio3 from "./League-of-legends-logo.png";

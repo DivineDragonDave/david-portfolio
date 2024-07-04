@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 import { Logo } from "../assets";
 
 const activeClassName =
-  "relative before:content-['↓'] before:text-4xl before:-top-9 before:left-1/2 before:-translate-x-1/2 before:absolute before:text-amber-400";
+  "relative before:content-['↓'] before:text-4xl before:-top-9 before:left-1/2 before:-translate-x-1/2 before:absolute before:text-red-700";
 
 function Header() {
   return (
