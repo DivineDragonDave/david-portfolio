@@ -1,6 +1,7 @@
 import Logo from "./DR Logo vit.png";
-import Hero from "./David.jpg";
-import Portfolio from "./Portfolio.webp";
+import Hero from "./David.png";
+import Hero2 from "./David2.png";
+import Portfolio from "./Portfolio.png";
 import Portfolio1 from "./Joke.png";
 import Portfolio2 from "./Kalender.png";
 import Portfolio3 from "./League-of-legends-logo.png";
@@ -10,7 +11,6 @@ import Portfolio6 from "./Quiz.jpg";
 import Portfolio7 from "./Spotify.png";
 import Portfolio8 from "./Weather-app-dave.png";
 import Portfolio9 from "./Contrys.png";
-import Services from "./Services.jpg";
 import Github from "./icons/GitHub-Logo.wine.svg";
 import Tiktok from "./icons/icons8-tiktok.svg";
 import Linkedin from "./icons/LinkedIn_icon.svg";
@@ -22,12 +22,12 @@ import Mongo from "./icons/Mongodb.png";
 import Node from "./icons/Node.svg";
 import Reacticon from "./icons/React.svg";
 import Tail from "./icons/Tailwindcss.svg";
-
 import Pdf from "./icons/Pdf.svg";
 
 export {
   Logo,
   Hero,
+  Hero2,
   Portfolio,
   Portfolio1,
   Portfolio2,
@@ -38,7 +38,6 @@ export {
   Portfolio7,
   Portfolio8,
   Portfolio9,
-  Services,
   Github,
   Tiktok,
   Linkedin,

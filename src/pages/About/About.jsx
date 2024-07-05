@@ -1,6 +1,6 @@
 import React from "react";
 import { socials } from "../../data";
-import { Hero, Pdf } from "../../assets";
+import { Hero2, Pdf } from "../../assets";
 import Scroller from "../../componets/Scroller";
 import Contact from "../../componets/Contact";
 
@@ -70,8 +70,8 @@ function About() {
           </div>
           <div>
             <img
-              className=" border-white border-2 rounded-xl md:h-[700px]  md:ml-56 "
-              src={Hero}
+              className="relative rounded-xl md:h-[700px] md:ml-56"
+              src={Hero2}
               alt="David Ribbfors"
             />
           </div>

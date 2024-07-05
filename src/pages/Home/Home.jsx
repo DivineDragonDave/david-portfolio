@@ -43,7 +43,7 @@ function Home() {
       <section className="py-10 lg:py-22">
         <div className="container mx-auto gap-8 px-4 flex flex-col md:flex-row items-center">
           <div className="mt-16 md:flex-1 md:order-2">
-            <picture className="flex drop-shadow-[10px_-10px_0_rgba(107,27,27,42)] border-black rounded-tl-[350px] overflow-auto">
+            <picture className=" flex overflow-auto">
               <img
                 className="max-w-full h-auto max-h-[800px] sm:max-w-[350px] md:max-w-[500px]"
                 src={Hero}
@@ -113,8 +113,12 @@ function Home() {
         className="relative px-4 pb-12 border-t-2 border-black"
       >
         <div
-          className="absolute inset-0 bg-fixed brightness-50 saturate-150"
-          style={{ backgroundImage: `url(${Portfolio})` }}
+          className="absolute inset-0 bg-fixed "
+          style={{
+            backgroundImage: `url(${Portfolio})`,
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "cover",
+          }}
         ></div>
 
         <div className="relative container mx-auto">

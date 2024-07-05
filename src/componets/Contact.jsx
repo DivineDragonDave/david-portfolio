@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 
 function Contact() {
   return (
-    <section className=" px-4 bg-#1D562D hover:bg-#00AB30 text-white border-t-2 ease-in-out duration-150 cursor-pointer ">
+    <section className=" px-2 bg-#1D562D hover:bg-#00AB30 text-white border-t-2 ease-in-out duration-150 cursor-pointer ">
       <Link to="/contact">
-        <div className=" container mx-auto md:flex gap-8 py-24 ">
+        <div className=" container mx-auto md:flex gap-8 py-8 ">
           <div className="flex-col item-center">
             <h2 className=" text-4xl">Have a project in mind?</h2>
             <h1 className=" text-4xl lg:text-5xl xl:text-7xl font-bold">
