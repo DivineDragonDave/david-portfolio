@@ -3,7 +3,7 @@ import Hero from "./David.png";
 import Hero2 from "./David2.png";
 import Portfolio from "./Portfolio.png";
 import Portfolio1 from "./Joke.png";
-import Portfolio2 from "./kalender.png";
+
 import Portfolio3 from "./League-of-legends-logo.png";
 import Portfolio4 from "./Motivationsgenerator.png";
 import Portfolio5 from "./Password generator.png";
@@ -30,7 +30,6 @@ export {
   Hero2,
   Portfolio,
   Portfolio1,
-  Portfolio2,
   Portfolio3,
   Portfolio4,
   Portfolio5,
