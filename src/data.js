@@ -1,5 +1,6 @@
 import {
   Portfolio1,
+  Portfolio2,
   Portfolio3,
   Portfolio4,
   Portfolio5,
@@ -15,7 +16,7 @@ import {
 export const portfolioData = [
   {
     title: "Homemade calender",
-    thumbnail: 22,
+    thumbnail: Portfolio2,
     alt: " a calander",
     category: "Create your own calender",
     link: "https://home-made-calendar.netlify.app/",
