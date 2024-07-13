@@ -3,20 +3,20 @@ import { socials } from "../../data";
 
 function Contact() {
   return (
-    <section className=" text-white py-12 border-x-2 border-white ">
+    <section className=" text-white py-24   ">
       <div className=" container mx-auto px-4 grid gap-8 lg:grid-cols-2 ">
         <div>
           <h1 className="text-4xl lg:text-5xl xl:text-7xl font-bold mb-4">
             Contact Me
           </h1>
-          <p className="mb-8 text-lg ">
+          <p className="mb-12 text-lg ">
             For further assistance or inquiries, please feel free to send me an
             email using the adjacent form or connect with me on LinkedIn through
             the link provided.
           </p>
 
           <div className=" text-lg font-bold">Find me on:</div>
-          <div className=" mb-8 ">
+          <div>
             <ul className="flex gap-6">
               {socials.map((item, index) => (
                 <li key={index}>
@@ -24,7 +24,7 @@ function Contact() {
                     target="_blank"
                     href={item.link}
                     rel="noopener noreferrer"
-                    className="py-2 flex flex-col md:flex-row gap-2 items-center justify-center"
+                    className="py-4 flex flex-col md:flex-row gap-2 items-center justify-center"
                   >
                     {item.name}
                     <img
@@ -45,7 +45,7 @@ function Contact() {
             method="post"
             accept-charset="UTF-8"
           >
-            <div className="w-full mb-4">
+            <div className="w-full mb-10">
               <label
                 className="form-label inline-block mb-2 text-gray-300"
                 for="name"
@@ -53,14 +53,14 @@ function Contact() {
                 Your Name
               </label>
               <input
-                className="text-black block w-full px-3 py-2 border-black border-2 rounded-xl"
+                className="text-black block w-full  py-2 border-black border-2 rounded-xl"
                 name="Name"
                 id="name"
                 type="text"
                 required
               />
             </div>
-            <div className="w-full mb-4">
+            <div className="w-full mb-12">
               <label
                 className="form-label inline-block mb-2 text-gray-300"
                 for="name"
@@ -97,7 +97,7 @@ function Contact() {
               <input
                 type="submit"
                 value="Send it!"
-                className="px-6 py-4 rounded-md bg-#1D562D hover:bg-#00AB30"
+                className=" mb-12 px-12 py-8 rounded-md bg-#1D562D hover:bg-#00AB30"
               />
             </div>
           </form>

@@ -20,6 +20,7 @@ export const portfolioData = [
     alt: " a calander",
     category: "Create your own calender",
     link: "https://home-made-calendar.netlify.app/",
+    teknik: "HTML CSS JavaSript API",
   },
   {
     title: "League of Legends Memory",
@@ -27,6 +28,7 @@ export const portfolioData = [
     alt: " league of legends ",
     category: "A memory game with lol characters",
     link: "https://leauge-of-legends-memory-dave.netlify.app/",
+    teknik: "HTML CSS JavaSript",
   },
   {
     title: "Countries",
@@ -34,6 +36,7 @@ export const portfolioData = [
     alt: " flags ",
     category: "A side with info about countries",
     link: "https://countries-dave.netlify.app/",
+    teknik: "HTML CSS React Material-UI API",
   },
   {
     title: "Spotify",
@@ -41,6 +44,7 @@ export const portfolioData = [
     alt: " inlog to spotify ",
     category: "A clone of spotify",
     link: "https://daves-spotify-clone.netlify.app/",
+    teknik: "HTML React css Material-UI API",
   },
   {
     title: "Weather",
@@ -48,6 +52,7 @@ export const portfolioData = [
     alt: " weather ",
     category: "A simpel weather app",
     link: "https://weather-app-dave.netlify.app/",
+    teknik: "HTML CSS JavaSript API",
   },
   {
     title: "Quiz",
@@ -55,6 +60,7 @@ export const portfolioData = [
     alt: " a quiz ",
     category: "A simple quiz game",
     link: "https://dave-quiz.netlify.app/",
+    teknik: "HTML CSS JavaSript",
   },
 
   {
@@ -63,6 +69,7 @@ export const portfolioData = [
     alt: " a motivaton ",
     category: "A generator for motivations",
     link: "https://motivationsgenerator.netlify.app/",
+    teknik: "HTML CSS JavaSript API",
   },
   {
     title: "Password Generator",
@@ -70,6 +77,7 @@ export const portfolioData = [
     alt: " password gen ",
     category: "A generator to get random text",
     link: "https://password-generator-dave.netlify.app/",
+    teknik: "HTML CSS JavaSript",
   },
 
   {
@@ -78,6 +86,7 @@ export const portfolioData = [
     alt: " A joke  ",
     category: "A generator for jokes",
     link: "https://joke-generator-dave.netlify.app/",
+    teknik: "HTML CSS JavaSript API",
   },
 ];
 

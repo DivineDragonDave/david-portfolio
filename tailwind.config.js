@@ -7,15 +7,18 @@ export default {
         sans: ["Inter", "sans-serif"],
       },
       colors: {
-        "#1D562D": "#1D562D",
+        "#1D562D": "#AF1A1A",
         "#6B1B1B": "#6B1B1B",
         "#AB0000": "#AB0000",
         "#331A1A": "#331A1A",
-        "#00AB30": "#00AB30",
+        "#00AB30": "#D61A1A",
       },
       spacing: {
         "translate-sm": "100px",
         "translate-md": "150px",
+      },
+      backgroundImage: {
+        "back": "url('/src/assets/Portfolio.webp')",
       },
     },
   },

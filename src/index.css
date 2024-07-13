@@ -9,7 +9,11 @@ html {
 
 body {
   background-image: url(../src/assets/background.jpg);
-  padding-top: 50px;
+}
+@media (max-width: 500px) {
+  body {
+    padding-top: 50px;
+  }
 }
 
 /* i din CSS-fil */
