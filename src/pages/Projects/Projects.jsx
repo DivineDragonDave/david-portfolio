@@ -24,7 +24,7 @@ function Projects() {
       <div key={idx} className="flex flex-wrap justify-start items-center mt-2">
         {group.split(" ").map((word, index) => (
           <span
-            className="border-[4px] border-black mx-1 my-1 p-2 rounded-xl"
+            className="border-[2px] md:border-4 border-black my-1 mx-1 p-1 md:p-2  rounded-xl"
             key={index}
           >
             {word}
@@ -60,7 +60,7 @@ function Projects() {
               <div
                 className={`flex flex-col md:${
                   index % 2 === 0 ? "flex-row" : "flex-row-reverse"
-                } mx-auto w-[90%] md:w-full h-[450px] border-2 border-black rounded-xl`}
+                } mx-auto w-[95%] md:w-full h-[500px] border-2 border-black rounded-xl`}
               >
                 <img
                   className=" bg-#331A1A h-full w-full md:w-auto object-cover"

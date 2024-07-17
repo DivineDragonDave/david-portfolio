@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  background-image: url(../src/assets/background.jpg);
+  background-color: #331a1a;
 }
 @media (max-width: 500px) {
   body {
