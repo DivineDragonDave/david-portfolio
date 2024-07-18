@@ -50,12 +50,9 @@ function Projects() {
 
         <div className="container overflow-hidden mx-auto flex flex-col items-center gap-8">
           {visibleProjects.map((item, index) => (
-            <a
-              href={item.link}
+            <div
               key={index}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="overflow-hidden rounded-xl ease-in-out duration-75 hover:translate-y-[-4px] hover:drop-shadow-[10px_8px_0_rgba(0,0,0,1)]"
+              className="overflow-hidden rounded-xl ease-in-out duration-75 drop-shadow-[10px_8px_0_rgba(0,0,0,1)]"
             >
               <div
                 className={`flex flex-col md:${
@@ -63,7 +60,7 @@ function Projects() {
                 } mx-auto w-[95%] md:w-full h-[500px] border-2 border-black rounded-xl`}
               >
                 <img
-                  className=" bg-#331A1A h-full w-full md:w-auto object-cover"
+                  className="bg-#331A1A h-full w-full md:w-auto object-cover"
                   src={item.thumbnail}
                   alt={item.alt}
                   loading="lazy"
@@ -71,13 +68,32 @@ function Projects() {
                 <div className="w-full md:w-[450px] h-full p-4 text-white bg-[#331A1A] flex flex-col items-center justify-center">
                   <span className="font-bold">{item.title}</span>
                   <span className="text-zinc-400">{item.category}</span>
-                  <div className="mt-4   ">{renderWords(item.teknik)}</div>
-                  <button className="md:hidden border-2 border-red-600 rounded-full p-2 mt-1">
-                    Demo
-                  </button>
+                  <div className="mt-4">{renderWords(item.teknik)}</div>
+                  <div className="flex gap-8">
+                    <a
+                      href={item.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <button className="hover:bg-#00AB30 border-2 border-red-600 rounded-full p-2 mt-1">
+                        Demo
+                      </button>
+                    </a>
+                    {item.link2 && (
+                      <a
+                        href={item.link2}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <button className="hover:bg-#00AB30 border-2 border-red-600 rounded-full p-2 mt-1">
+                          GitHub Code
+                        </button>
+                      </a>
+                    )}
+                  </div>
                 </div>
               </div>
-            </a>
+            </div>
           ))}
         </div>
         {portfolioData.length > 4 && (
