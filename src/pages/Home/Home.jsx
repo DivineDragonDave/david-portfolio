@@ -44,7 +44,7 @@ function Home() {
               working with you.
             </p>
             <div className=" drop-shadow-[10px_8px_0_rgba(0,0,0,1)] mb-4  mx-auto w-[350px] md:w-auto flex container  bg-#1D562D py-2 px-2 rounded-3xl ">
-              <div className="grid grid-cols-2 mt-6 text-white text-[12px] mr-2 ml-3 md:mr-32  md:text-2xl">
+              <div className="grid grid-cols-2 mt-6 text-white text-[11px]  ml-2 md:mr-32  md:text-2xl">
                 <p className="flex mx-1 text-center">• React</p>
                 <p className="flex mx-1 text-center">• Tailwind</p>
                 <p className="flex mx-1 text-center">• CSS</p>
