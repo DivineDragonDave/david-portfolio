@@ -9,7 +9,7 @@ function Scroller({ link }) {
         <Marquee
           pauseOnHover
           gradient={false}
-          className="bg-#1D562D text-white border-t-2 border-black py-2 font-bold text-2xl md:text-4xl "
+          className=" bg-#00AB30 text-white border-t-2 border-black py-2 font-bold text-2xl md:text-6xl h-28 "
         >
           💪Let's get to work! 🤔Have a project in mind? ✍️Contact me! 💪Let's
           get to work! 🤔Have a project in mind? ✍️Contact me! 💪Let's get to

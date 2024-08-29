@@ -34,10 +34,13 @@ function Header() {
         </Link>
 
         <div className="md:col-start-4  flex gap-2 items-center col-span-1 justify-center text-lg ease-in-out- duration-75">
-          <Link className="border-2 px-4 rounded-full" to="/contact">
+          <Link
+            className="border-2 px-4 rounded-full bg-#1D562D hover:bg-#00AB30"
+            to="/contact"
+          >
             Contact
           </Link>
-          <div className="text-center border-2 rounded-full">
+          <div className="text-center border-2 rounded-full hover:bg-#00AB30  ">
             <a
               className="flex justify-center items-center w-28 mx-auto"
               href="/David R CV.pdf"

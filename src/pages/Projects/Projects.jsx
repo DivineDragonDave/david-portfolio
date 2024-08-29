@@ -52,7 +52,7 @@ function Projects() {
           {visibleProjects.map((item, index) => (
             <div
               key={index}
-              className="overflow-hidden rounded-xl ease-in-out duration-75 drop-shadow-[10px_8px_0_rgba(0,0,0,1)]"
+              className="overflow-hidden rounded-2xl mb-2 ease-in-out duration-75 drop-shadow-[10px_8px_0_rgba(0,0,0,1)]"
             >
               <div
                 className={`flex flex-col md:${
