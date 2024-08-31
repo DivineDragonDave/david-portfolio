@@ -75,7 +75,7 @@ function Header() {
         </nav>
       </div>
 
-      <div className="fixed top-0 z-50 w-full flex justify-between items-center md:hidden bg-black ">
+      <div className="fixed top-0 z-50 w-full flex justify-between items-center md:hidden  bg-#331A1A border-b-2 border-gray-500 ">
         <Link className="ml-2" to="/" onClick={() => handleNavLinkClick("/")}>
           <img src={Logo} alt="Logotyp" className="h-auto max-w-[80%]" />
         </Link>
