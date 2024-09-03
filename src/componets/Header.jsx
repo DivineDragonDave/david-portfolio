@@ -24,7 +24,7 @@ function Header() {
   };
   return (
     <header>
-      <div className=" hidden fixed top-0 left-0 w-full z-50 md:grid md:grid-cols-4 bg-#331A1A border-b-2 border-gray-500 text-white">
+      <div className=" hidden  w-full md:grid md:grid-cols-4 bg-#331A1A border-b-2 border-gray-500 text-white">
         <Link
           to="/"
           onClick={() => handleNavLinkClick("/")}

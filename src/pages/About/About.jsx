@@ -5,7 +5,7 @@ import { Hero2, Pdf } from "../../assets";
 function About() {
   return (
     <>
-      <section className="text-white py-10 ">
+      <section className="text-white py-10 h-screen my-auto flex items-center  ">
         <div className="container mx-auto px-4 grid gap-8 lg:grid-cols-2 items-start">
           <div className="order-2 lg:order-1">
             {" "}
