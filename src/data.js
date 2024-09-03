@@ -28,9 +28,9 @@ export const portfolioData = [
     thumbnail: Portfolio3,
     alt: "league of legends",
     category: "A memory game with lol characters",
-    link: "https://leauge-of-legends-memory-dave.netlify.app/",
+    link: "https://memory-game-dave.netlify.app/",
     link2: "https://github.com/DivineDragonDave/leauge-of-legends-memory",
-    teknik: "HTML CSS JavaScript",
+    teknik: "HTML CSS JavaScript React Material-UI MongoDB",
   },
   {
     title: "Countries",
