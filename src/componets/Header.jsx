@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link, NavLink, useLocation } from "react-router-dom";
 import { Logo } from "../assets";
 import { HashLink } from "react-router-hash-link";
@@ -22,9 +22,25 @@ function Header() {
     }
     setToggle(false);
   };
+  const scrollToHash = (hash) => {
+    if (hash) {
+      setTimeout(() => {
+        const element = document.getElementById(hash);
+        if (element) {
+          element.scrollIntoView({ behavior: "smooth" });
+        }
+      }, 10);
+    }
+  };
+
+  useEffect(() => {
+    if (location.hash) {
+      scrollToHash(location.hash.substring(1));
+    }
+  }, [location]);
   return (
     <header>
-      <div className=" hidden  w-full md:grid md:grid-cols-4 bg-#331A1A border-b-2 border-gray-500 text-white">
+      <div className=" hidden  w-full md:grid md:grid-cols-4 bg-#331A1A border-b-2 text-white border-gray-500  fixed top-0 left-0  z-10 ">
         <Link
           to="/"
           onClick={() => handleNavLinkClick("/")}
@@ -62,6 +78,7 @@ function Header() {
 
             <li>
               <HashLink
+                smooth
                 to="/#work"
                 onClick={() => handleNavLinkClick("/#work")}
               >

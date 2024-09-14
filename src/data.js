@@ -15,6 +15,15 @@ import {
 
 export const portfolioData = [
   {
+    title: "Pokémon Memory",
+    thumbnail: Portfolio3,
+    alt: "Pokémon Memory",
+    category: "A memory game with the first gen pokémons",
+    link: "https://memory-pokemon-dave.netlify.app/",
+    link2: "https://github.com/DivineDragonDave/my-memory-game---pokemon",
+    teknik: "HTML CSS JavaScript React Material-UI MongoDB",
+  },
+  {
     title: "Homemade Calendar",
     thumbnail: Portfolio2,
     alt: "a calendar",
@@ -22,15 +31,6 @@ export const portfolioData = [
     link: "https://home-made-calendar.netlify.app/",
     link2: "https://github.com/DivineDragonDave/kalender",
     teknik: "HTML CSS JavaScript API",
-  },
-  {
-    title: "League of Legends Memory",
-    thumbnail: Portfolio3,
-    alt: "league of legends",
-    category: "A memory game with lol characters",
-    link: "https://memory-game-dave.netlify.app/",
-    link2: "https://github.com/DivineDragonDave/leauge-of-legends-memory",
-    teknik: "HTML CSS JavaScript React Material-UI MongoDB",
   },
   {
     title: "Countries",
@@ -41,15 +41,7 @@ export const portfolioData = [
     link2: "https://github.com/DivineDragonDave/contrys",
     teknik: "HTML CSS React Material-UI API",
   },
-  {
-    title: "Spotify",
-    thumbnail: Portfolio7,
-    alt: "inlog to spotify",
-    category: "A clone of Spotify",
-    link: "https://daves-spotify-clone.netlify.app/",
-    link2: "https://github.com/DivineDragonDave/daves-spotify-clone-netlify",
-    teknik: "HTML React CSS Material-UI API",
-  },
+
   {
     title: "Weather",
     thumbnail: Portfolio8,
@@ -57,6 +49,16 @@ export const portfolioData = [
     category: "A simple weather app",
     link: "https://weather-app-dave.netlify.app/",
     link2: "https://github.com/DivineDragonDave/v-der-app",
+    teknik: "HTML CSS JavaScript API",
+  },
+
+  {
+    title: "Motivation",
+    thumbnail: Portfolio4,
+    alt: "motivation",
+    category: "A generator for motivations",
+    link: "https://motivationsgenerator.netlify.app/",
+    link2: "https://github.com/DivineDragonDave/motivationsgenerator",
     teknik: "HTML CSS JavaScript API",
   },
   {
@@ -67,15 +69,6 @@ export const portfolioData = [
     link: "https://dave-quiz.netlify.app/",
     link2: "https://github.com/DivineDragonDave/dave-quiz",
     teknik: "HTML CSS JavaScript",
-  },
-  {
-    title: "Motivation",
-    thumbnail: Portfolio4,
-    alt: "motivation",
-    category: "A generator for motivations",
-    link: "https://motivationsgenerator.netlify.app/",
-    link2: "https://github.com/DivineDragonDave/motivationsgenerator",
-    teknik: "HTML CSS JavaScript API",
   },
   {
     title: "Password Generator",

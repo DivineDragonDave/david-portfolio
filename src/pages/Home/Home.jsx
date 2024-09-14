@@ -19,8 +19,8 @@ import ScrollToTopButton from "../../componets/ScrollToTopButton";
 
 function Home() {
   return (
-    <div>
-      <section className="md:h-[calc(100vh-158px)] flex justify-center items-center">
+    <div className=" mx-1  ">
+      <section className="md:h-[calc(100vh-158px)] flex justify-center items-center mt-[45px] ">
         <div className="container mx-auto gap-16 flex flex-col md:flex-row-reverse items-center text-center md:text-left">
           <div className="flex-1">
             <picture className="flex justify-end w-full">
@@ -31,8 +31,8 @@ function Home() {
               />
             </picture>
           </div>
-          <div className="md:flex-1">
-            <h1 className="text-white text-4xl xl:text-6xl font-bold mb-6">
+          <div className="md:flex-1 w-[95%] ">
+            <h1 className="text-white  text-4xl xl:text-6xl font-bold mb-6">
               I am a web developer<span className="text-#AB0000">.</span>
             </h1>
 

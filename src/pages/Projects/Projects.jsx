@@ -7,7 +7,7 @@ function Projects() {
   const [showAll, setShowAll] = useState(false);
 
   useEffect(() => {
-    const limit = showAll ? portfolioData.length : 4;
+    const limit = showAll ? portfolioData.length : 3;
     setVisibleProjects(portfolioData.slice(0, limit));
   }, [showAll]);
 
@@ -24,7 +24,7 @@ function Projects() {
       <div key={idx} className="flex flex-wrap justify-start items-center mt-2">
         {group.split(" ").map((word, index) => (
           <span
-            className="border-[2px] md:border-4 border-black my-1 mx-1 p-1 md:p-2  rounded-xl"
+            className="border-[2px] md:border-4 border-black my-1 mx-1 p-1 md:p-2 rounded-xl"
             key={index}
           >
             {word}
@@ -35,7 +35,7 @@ function Projects() {
   };
 
   return (
-    <section className="bg-back bg-cover bg-center h-full mx-auto py-16">
+    <section id="work" className="container w-[98%] h-full mx-auto">
       <div className="flex flex-col">
         <div className="text-white text-center py-12">
           <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold mb-2">
@@ -52,15 +52,15 @@ function Projects() {
           {visibleProjects.map((item, index) => (
             <div
               key={index}
-              className="overflow-hidden rounded-2xl mb-2 ease-in-out duration-75 drop-shadow-[10px_8px_0_rgba(0,0,0,1)]"
+              className="rounded-2xl overflow-hidden mb-2 ease-in-out duration-75 drop-shadow-[10px_8px_0_rgba(0,0,0,1)]"
             >
               <div
                 className={`flex flex-col md:${
                   index % 2 === 0 ? "flex-row" : "flex-row-reverse"
-                } mx-auto w-[95%] md:w-full h-[500px] border-2 border-black rounded-xl`}
+                } mx-auto w-[95%] md:w-full h-[500px] border-2 border-black rounded-2xl overflow-hidden`}
               >
                 <img
-                  className="bg-#331A1A h-full w-full md:w-auto object-cover"
+                  className="h-full w-full md:w-auto object-cover "
                   src={item.thumbnail}
                   alt={item.alt}
                   loading="lazy"
